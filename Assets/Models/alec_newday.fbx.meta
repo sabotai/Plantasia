@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 914eccb9f041132419662ce641807ee3
-timeCreated: 1478890741
+timeCreated: 1479162819
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -2329,8 +2329,8 @@ ModelImporter:
       scale: {x: 1, y: 0.9999998, z: 0.99999976}
       transformModified: 1
     - name: ORG-chest
-      position: {x: -1.5447197e-11, y: 0.16164008, z: 0.0000000038281804}
-      rotation: {x: -0.117830515, y: -6.686146e-12, z: 0.000000028108232, w: 0.99303377}
+      position: {x: -5.605072e-12, y: 0.16163138, z: 0.0000014617111}
+      rotation: {x: -0.2126974, y: -5.3394372e-12, z: 0.000000050726392, w: 0.97711813}
       scale: {x: 1, y: 1.0000001, z: 0.99999994}
       transformModified: 1
     - name: ORG-neck
@@ -2354,18 +2354,18 @@ ModelImporter:
       scale: {x: 1.0000001, y: 0.99999994, z: 1}
       transformModified: 1
     - name: ORG-upper_arm.L
-      position: {x: -0.019958884, y: 0.18385817, z: -0.020388195}
-      rotation: {x: 0.12172219, y: -0.6570527, z: 0.15945165, w: 0.72666407}
+      position: {x: -0.019962246, y: 0.18386559, z: -0.020404946}
+      rotation: {x: 0.21936257, y: -0.64748955, z: -0.08078956, w: 0.7253347}
       scale: {x: 1, y: 1.0000008, z: 1.0000001}
       transformModified: 1
     - name: ORG-forearm.L
-      position: {x: 0.00000005564652, y: 0.29421374, z: -0.00000000745058}
-      rotation: {x: 0.033493936, y: -0.05263111, z: -0.037943497, w: 0.99733067}
+      position: {x: -0.000022277236, y: 0.2942112, z: 0.0000012964009}
+      rotation: {x: 0.037656512, y: -0.0055762525, z: -0.41928065, w: 0.90705824}
       scale: {x: 0.99999994, y: 1, z: 0.9999999}
       transformModified: 1
     - name: ORG-hand.L
-      position: {x: -0.00000003010336, y: 0.30989265, z: -0.000000010244547}
-      rotation: {x: 0.05755371, y: -0.7149335, z: 0.08657436, w: 0.69142073}
+      position: {x: -0.000016704204, y: 0.30982322, z: 0.000008684584}
+      rotation: {x: -0.20632106, y: -0.037852746, z: -0.059361774, w: 0.97594833}
       scale: {x: 1.0000002, y: 0.9999994, z: 1}
       transformModified: 1
     - name: ORG-palm.01.L
@@ -2380,12 +2380,12 @@ ModelImporter:
       transformModified: 1
     - name: ORG-f_index.02.L
       position: {x: -0.00000000745058, y: 0.044186536, z: -0.00000005867332}
-      rotation: {x: 0.032601155, y: 0.31049553, z: 0.0012065823, w: 0.9500149}
+      rotation: {x: 0.21510771, y: 0.3033783, z: 0.007967374, w: 0.9282386}
       scale: {x: 1.0000001, y: 0.99999994, z: 1.0000001}
       transformModified: 1
     - name: ORG-f_index.03.L
       position: {x: -0.00000002235174, y: 0.026132641, z: 0.00000000745058}
-      rotation: {x: -0.033628132, y: -0.23195192, z: -0.00821286, w: 0.97211117}
+      rotation: {x: -0.17247173, y: -0.22840402, z: -0.042120174, w: 0.95724136}
       scale: {x: 0.9999999, y: 1, z: 0.99999994}
       transformModified: 1
     - name: ORG-f_index.03.L_end
@@ -2395,17 +2395,17 @@ ModelImporter:
       transformModified: 1
     - name: ORG-thumb.01.L
       position: {x: 0.0019627584, y: 0.004127897, z: 0.010338671}
-      rotation: {x: -0.17015243, y: -0.45966947, z: -0.30664295, w: 0.8159181}
+      rotation: {x: -0.110046715, y: -0.48087704, z: -0.3301861, w: 0.80475104}
       scale: {x: 0.9999999, y: 0.9999998, z: 1.0000001}
       transformModified: 1
     - name: ORG-thumb.02.L
       position: {x: -0.000000008847564, y: 0.04863191, z: 0.00000005215406}
-      rotation: {x: 0.02748666, y: -0.2968704, z: 0.027728066, w: 0.9541193}
+      rotation: {x: 0.06437, y: -0.29585257, z: 0.06493472, w: 0.9508477}
       scale: {x: 0.9999999, y: 1.0000001, z: 1}
       transformModified: 1
     - name: ORG-thumb.03.L
       position: {x: -0.000000013038515, y: 0.041943904, z: 0.00000006705522}
-      rotation: {x: -0.017894479, y: -0.04403288, z: 0.033753335, w: 0.99829936}
+      rotation: {x: -0.050524022, y: -0.043808002, z: 0.09530099, w: 0.9931998}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: ORG-thumb.03.L_end
@@ -2425,12 +2425,12 @@ ModelImporter:
       transformModified: 1
     - name: ORG-f_middle.02.L
       position: {x: -0.00000000372529, y: 0.050980262, z: -0.000000057276335}
-      rotation: {x: 0.035908543, y: 0.23232359, z: 0.010402629, w: 0.9719199}
+      rotation: {x: 0.11901993, y: 0.2306943, z: 0.0344832, w: 0.9651038}
       scale: {x: 0.99999994, y: 1, z: 0.9999999}
       transformModified: 1
     - name: ORG-f_middle.03.L
       position: {x: 0.00000001862645, y: 0.031206679, z: 0.000000021420417}
-      rotation: {x: -0.036070354, y: -0.17251843, z: -0.0018759347, w: 0.9843438}
+      rotation: {x: -0.1482601, y: -0.17071827, z: -0.007707112, w: 0.97407126}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: ORG-f_middle.03.L_end
@@ -2445,17 +2445,17 @@ ModelImporter:
       transformModified: 1
     - name: ORG-f_ring.01.L
       position: {x: 0.000000003376044, y: 0.073321104, z: 0.00000007033304}
-      rotation: {x: 0.011749293, y: 0.1169472, z: -0.044015184, w: 0.9920928}
+      rotation: {x: 0.0277597, y: 0.11599242, z: -0.01719844, w: 0.99271315}
       scale: {x: 0.99999994, y: 0.9999998, z: 1}
       transformModified: 1
     - name: ORG-f_ring.02.L
       position: {x: 0.000000006984919, y: 0.048086762, z: -0.000000038300637}
-      rotation: {x: -0.036999475, y: -0.118540496, z: 0.011254656, w: 0.9921958}
+      rotation: {x: -0.09438858, y: -0.118050665, z: 0.028711192, w: 0.9880944}
       scale: {x: 1, y: 0.99999976, z: 0.99999994}
       transformModified: 1
     - name: ORG-f_ring.03.L
       position: {x: -0.0000000030267981, y: 0.03517713, z: -0.00000009945142}
-      rotation: {x: 0.04001498, y: 0.09042363, z: 0.002015871, w: 0.9950971}
+      rotation: {x: 0.07103964, y: 0.09026721, z: 0.0035787232, w: 0.9933743}
       scale: {x: 1, y: 0.99999994, z: 1}
       transformModified: 1
     - name: ORG-f_ring.03.L_end
@@ -2470,7 +2470,7 @@ ModelImporter:
       transformModified: 1
     - name: ORG-f_pinky.01.L
       position: {x: -0.000000013038515, y: 0.06639214, z: -0.000000025262123}
-      rotation: {x: 0.01254041, y: 0.15141629, z: -0.08936838, w: 0.98434204}
+      rotation: {x: -0.0039967154, y: 0.15104091, z: 0.07447412, w: 0.98571}
       scale: {x: 1, y: 0.9999998, z: 0.99999994}
       transformModified: 1
     - name: ORG-f_pinky.02.L
@@ -2480,7 +2480,7 @@ ModelImporter:
       transformModified: 1
     - name: ORG-f_pinky.03.L
       position: {x: 0.00000004842877, y: 0.019205889, z: -0.000000017229466}
-      rotation: {x: 0.016687857, y: 0.09200004, z: -0.036726627, w: 0.9949416}
+      rotation: {x: 0.02714568, y: 0.09187666, z: -0.0597293, w: 0.9936067}
       scale: {x: 1.0000001, y: 1, z: 1}
       transformModified: 1
     - name: ORG-f_pinky.03.L_end
@@ -2490,27 +2490,27 @@ ModelImporter:
       transformModified: 1
     - name: ORG-shoulder.R
       position: {x: 0.0066572432, y: 0.26182863, z: 0.058924563}
-      rotation: {x: -0.5820595, y: -0.38478595, z: -0.39537424, w: 0.597349}
+      rotation: {x: -0.58205944, y: -0.38478592, z: -0.3953742, w: 0.5973489}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: ORG-upper_arm.R
-      position: {x: 0.01995889, y: 0.1838582, z: -0.02038828}
-      rotation: {x: 0.12172234, y: 0.6570527, z: -0.1594515, w: 0.72666407}
+      position: {x: 0.019963656, y: 0.18386243, z: -0.020406846}
+      rotation: {x: 0.33866853, y: 0.5933278, z: 0.0011151062, w: 0.7302497}
       scale: {x: 1.0000001, y: 1.0000006, z: 1.0000002}
       transformModified: 1
     - name: ORG-forearm.R
-      position: {x: -0.00000006472691, y: 0.2942136, z: 0.00000000745058}
-      rotation: {x: 0.033494346, y: 0.052631278, z: 0.03794361, w: 0.99733067}
+      position: {x: 0.00001992285, y: 0.2942107, z: 0.000013425943}
+      rotation: {x: 0.053675525, y: -0.3461729, z: 0.37938187, w: 0.85636014}
       scale: {x: 0.99999994, y: 1, z: 0.9999999}
       transformModified: 1
     - name: ORG-hand.R
-      position: {x: 0.00000011883912, y: 0.30989277, z: 0.000000015832482}
-      rotation: {x: 0.057553776, y: 0.71493334, z: -0.08657454, w: 0.6914208}
+      position: {x: 0.000018283727, y: 0.309884, z: 0.0000031739478}
+      rotation: {x: 0.019279672, y: 0.3422415, z: 0.010742768, w: 0.9393528}
       scale: {x: 1, y: 0.99999934, z: 0.99999976}
       transformModified: 1
     - name: ORG-palm.01.R
       position: {x: -0.023519928, y: 0.031142674, z: 0.00072041753}
-      rotation: {x: 0.026542373, y: 0.04938572, z: 0.045279022, w: 0.9973998}
+      rotation: {x: 0.026542371, y: 0.04938572, z: 0.04527902, w: 0.9973998}
       scale: {x: 0.99999994, y: 1.0000001, z: 0.99999994}
       transformModified: 1
     - name: ORG-f_index.01.R
@@ -2525,7 +2525,7 @@ ModelImporter:
       transformModified: 1
     - name: ORG-f_index.03.R
       position: {x: -0.00000001490116, y: 0.02958504, z: 0.00000000745058}
-      rotation: {x: 0.033433396, y: -0.040979575, z: 0.024307217, w: 0.9983046}
+      rotation: {x: 0.036988035, y: -0.040971626, z: 0.026891425, w: 0.9981133}
       scale: {x: 1.0000001, y: 0.99999994, z: 1}
       transformModified: 1
     - name: ORG-f_index.03.R_end
@@ -2540,12 +2540,12 @@ ModelImporter:
       transformModified: 1
     - name: ORG-thumb.02.R
       position: {x: -0, y: 0.05006498, z: 0.00000001490116}
-      rotation: {x: 0.0124690775, y: -0.010937387, z: 0.03793102, w: 0.9991427}
+      rotation: {x: 0.023050033, y: -0.010916283, z: 0.07012417, w: 0.99721223}
       scale: {x: 1.0000001, y: 1.0000001, z: 1}
       transformModified: 1
     - name: ORG-thumb.03.R
       position: {x: 0.000000020489095, y: 0.04194383, z: -0.0000000372529}
-      rotation: {x: -0.017896, y: 0.04403319, z: -0.033753585, w: 0.9982993}
+      rotation: {x: -0.050523926, y: 0.04380802, z: -0.09530103, w: 0.9931998}
       scale: {x: 1, y: 1.0000001, z: 1}
       transformModified: 1
     - name: ORG-thumb.03.R_end
@@ -2565,7 +2565,7 @@ ModelImporter:
       transformModified: 1
     - name: ORG-f_middle.02.R
       position: {x: 0.00000000372529, y: 0.05098035, z: -0.000000050291415}
-      rotation: {x: -0.03730107, y: -0.03750392, z: -0.0154220965, w: 0.99848104}
+      rotation: {x: -0.060245965, y: -0.037454683, z: -0.024910638, w: 0.99716955}
       scale: {x: 1, y: 0.9999999, z: 0.99999994}
       transformModified: 1
     - name: ORG-f_middle.03.R
@@ -2585,17 +2585,17 @@ ModelImporter:
       transformModified: 1
     - name: ORG-f_ring.01.R
       position: {x: -0.000000004190951, y: 0.07332119, z: -0.000000050706145}
-      rotation: {x: -0.08105148, y: -0.0062402845, z: 0.036261186, w: 0.9960306}
+      rotation: {x: -0.08694017, y: -0.0073987897, z: 0.024646053, w: 0.99588114}
       scale: {x: 0.99999976, y: 0.99999994, z: 0.9999998}
       transformModified: 1
     - name: ORG-f_ring.02.R
       position: {x: 3.4924594e-10, y: 0.053238746, z: 0.000000020798323}
-      rotation: {x: 0.018705828, y: 0.012400081, z: -0.03671427, w: 0.9990738}
+      rotation: {x: 0.021937484, y: 0.012396138, z: -0.043056715, w: 0.99875486}
       scale: {x: 0.99999994, y: 0.99999994, z: 1}
       transformModified: 1
     - name: ORG-f_ring.03.R
       position: {x: 9.313225e-10, y: 0.03517725, z: -0.000000008876667}
-      rotation: {x: 0.040017202, y: -0.090423666, z: -0.0020161169, w: 0.9950971}
+      rotation: {x: 0.07103964, y: -0.090267204, z: -0.003578734, w: 0.9933743}
       scale: {x: 1, y: 0.9999999, z: 0.9999999}
       transformModified: 1
     - name: ORG-f_ring.03.R_end
@@ -2610,7 +2610,7 @@ ModelImporter:
       transformModified: 1
     - name: ORG-f_pinky.01.R
       position: {x: -0.000000005587935, y: 0.066392295, z: -0.0000000258442}
-      rotation: {x: 0.012537582, y: -0.15141699, z: 0.0893692, w: 0.98434186}
+      rotation: {x: -0.0039968425, y: -0.15104079, z: -0.07447407, w: 0.9857101}
       scale: {x: 1, y: 0.99999976, z: 1}
       transformModified: 1
     - name: ORG-f_pinky.02.R
@@ -2620,7 +2620,7 @@ ModelImporter:
       transformModified: 1
     - name: ORG-f_pinky.03.R
       position: {x: -0.00000002235174, y: 0.019205771, z: -0.000000065891065}
-      rotation: {x: 0.016690945, y: -0.092000134, z: 0.03672699, w: 0.9949415}
+      rotation: {x: 0.02714566, y: -0.091876656, z: 0.059729293, w: 0.9936067}
       scale: {x: 1, y: 0.99999994, z: 0.99999994}
       transformModified: 1
     - name: ORG-f_pinky.03.R_end
@@ -2670,7 +2670,7 @@ ModelImporter:
       transformModified: 1
     - name: ORG-toe.R
       position: {x: 0.000000004190951, y: 0.13445258, z: -0.0000000013387761}
-      rotation: {x: -0.12707546, y: 0.9782924, z: -0.16248412, w: 0.019866431}
+      rotation: {x: -0.12707545, y: 0.9782924, z: -0.16248411, w: 0.019866431}
       scale: {x: 0.99999994, y: 1.0000004, z: 1}
       transformModified: 1
     - name: ORG-toe.R_end
