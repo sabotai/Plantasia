@@ -3,7 +3,10 @@ using System.Collections;
 
 public class move : MonoBehaviour {
 
+	public bool auto = false;
 	public float speed = 5f;
+	public Vector3 direction;
+
 
 	// Use this for initialization
 	void Start () {
@@ -14,8 +17,12 @@ public class move : MonoBehaviour {
 	void Update () {
 
 		if (Input.GetKeyDown (KeyCode.W)) {
-			GetComponent<Rigidbody> ().AddForce (-Vector3.forward * speed);
+			GetComponent<Rigidbody> ().AddRelativeForce (direction * speed);
 		}
-	
+		
+		if (auto){
+			GetComponent<Rigidbody> ().AddForce (direction * speed);
+			auto = false;
+		}
 	}
 }
