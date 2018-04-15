@@ -1,4 +1,6 @@
-﻿Shader "Custom/SteamVR_ColorOut" {
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "Custom/SteamVR_ClearAll" {
 	Properties { _MainTex ("Base (RGB)", 2D) = "white" {} }
 
 	CGINCLUDE
@@ -14,26 +16,21 @@
 
 	v2f vert(appdata_base v) {
 		v2f o;
-		o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+		o.pos = UnityObjectToClipPos(v.vertex);
 		o.tex = v.texcoord;
 		return o;
 	}
 
-	float luminance(float3 color)
-	{
-		return 0.2126 * color.r + 0.7152 * color.g + 0.0722 * color.b;
-	}
-
 	float4 frag(v2f i) : COLOR {
-		float4 color = tex2D(_MainTex, i.tex);
-		return float4(color.rgb, 1);
+		return float4(0, 0, 0, 0);
 	}
 
 	ENDCG
 
 	SubShader {
+		Tags{ "Queue" = "Background" }
 		Pass {
-			ZTest Always Cull Off ZWrite Off
+			ZTest Always Cull Off ZWrite On
 			Fog { Mode Off }
 
 			CGPROGRAM

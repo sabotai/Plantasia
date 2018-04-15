@@ -1,4 +1,6 @@
-﻿Shader "Custom/SteamVR_AlphaOut" {
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "Custom/SteamVR_ColorOut" {
 	Properties { _MainTex ("Base (RGB)", 2D) = "white" {} }
 
 	CGINCLUDE
@@ -14,7 +16,7 @@
 
 	v2f vert(appdata_base v) {
 		v2f o;
-		o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+		o.pos = UnityObjectToClipPos(v.vertex);
 		o.tex = v.texcoord;
 		return o;
 	}
@@ -26,8 +28,7 @@
 
 	float4 frag(v2f i) : COLOR {
 		float4 color = tex2D(_MainTex, i.tex);
-		float a = saturate(color.a + luminance(color.rgb));
-		return float4(a, a, a, a);
+		return float4(color.rgb, 1);
 	}
 
 	ENDCG
@@ -44,3 +45,4 @@
 		}
 	}
 }
+
