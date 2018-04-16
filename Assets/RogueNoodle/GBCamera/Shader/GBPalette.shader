@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 Shader "GBCamera/GBPalette" {
     Properties {
         [PerRendererData]_MainTex ("MainTex", 2D) = "white" {}
@@ -51,7 +53,7 @@ Shader "GBCamera/GBPalette" {
                 VertexOutput o = (VertexOutput)0;
                 o.uv0 = v.texcoord0;
                 o.vertexColor = v.vertexColor;
-                o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+                o.pos = UnityObjectToClipPos(v.vertex);
                 #ifdef PIXELSNAP_ON
                     o.pos = UnityPixelSnap(o.pos);
                 #endif
